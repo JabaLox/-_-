@@ -1,0 +1,87 @@
+﻿<Window x:Class="ООО__Ароматный_мир_.Windows.EditAndAddWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:ООО__Ароматный_мир_.Windows"
+        mc:Ignorable="d"
+        Title="Окно добавления" Height="450" Width="800" Loaded="Window_Loaded">
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="42*"></RowDefinition>
+            <RowDefinition Height="155*"></RowDefinition>
+            <RowDefinition Height="20*"/>
+        </Grid.RowDefinitions>
+        <Image Grid.Row="0" Source="/Resorces/LogoImage/logo.png" ></Image>
+        <Grid  Grid.Row="1">
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition/>
+                <ColumnDefinition/>
+            </Grid.ColumnDefinitions>
+            <Grid.RowDefinitions>
+                <RowDefinition></RowDefinition>
+                <RowDefinition></RowDefinition>
+                <RowDefinition></RowDefinition>
+                <RowDefinition></RowDefinition>
+                <RowDefinition></RowDefinition>
+                <RowDefinition></RowDefinition>
+            </Grid.RowDefinitions>
+            <StackPanel Grid.Row="0" Grid.Column="0">
+                <TextBlock>Артикль</TextBlock>
+                <TextBox x:Name="ArticleText"></TextBox>
+            </StackPanel>
+            <StackPanel Grid.Row="1" Grid.Column="0">
+                <TextBlock>Наименование товара</TextBlock>
+                <TextBox x:Name="NameProductText"></TextBox>
+            </StackPanel>
+            <StackPanel Grid.Row="2" Grid.Column="0">
+                <TextBlock>Описание товара</TextBlock>
+                <TextBox x:Name="DescriptionText"></TextBox>
+            </StackPanel>
+            <StackPanel Grid.Row="3" Grid.Column="0">
+                <TextBlock>Категория товара</TextBlock>
+                <ComboBox x:Name="CategoryCombo"></ComboBox>
+            </StackPanel>
+            <StackPanel Grid.Row="4" Grid.Column="0">
+                <TextBlock>Проивзодтель товара</TextBlock>
+                <ComboBox x:Name="ManufactureCombo"></ComboBox>
+            </StackPanel>
+            <StackPanel Grid.Row="5" Grid.Column="0">
+                <TextBlock>Цена товара</TextBlock>
+                <TextBox x:Name="CostText"></TextBox>
+            </StackPanel>
+            <StackPanel Grid.Row="0" Grid.Column="1">
+                <TextBlock>Сикдка товара</TextBlock>
+                <TextBox x:Name="DiscountText"></TextBox>
+            </StackPanel>
+            <StackPanel Grid.Row="1" Grid.Column="2">
+                <TextBlock>Кол-во на складе товара</TextBlock>
+                <TextBox x:Name="CountInStockText"></TextBox>
+            </StackPanel>
+            <StackPanel Grid.Row="2" Grid.Column="3">
+                <TextBlock>Максимальная скидка товара</TextBlock>
+                <TextBox x:Name="MaxDiscountText"></TextBox>
+            </StackPanel>
+            <StackPanel Grid.Row="3" Grid.Column="3">
+                <TextBlock>Поставщик товара</TextBlock>
+                <ComboBox x:Name="Supplier"></ComboBox>
+            </StackPanel>
+            <StackPanel Grid.Row="4" Grid.Column="1">
+                <TextBox x:Name="PhotoPath"></TextBox>
+                <Button>Выбор фотки</Button>
+            </StackPanel>
+        </Grid>
+        <Grid Grid.Row="2">
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition></ColumnDefinition>
+                <ColumnDefinition></ColumnDefinition>
+                <ColumnDefinition></ColumnDefinition>
+            </Grid.ColumnDefinitions>
+            <Button Grid.Row="0">Назад</Button>
+            <StackPanel Orientation="Horizontal" HorizontalAlignment="Center" Grid.Column="1">
+                <Button Click="Button_Click">Добавть</Button>
+                <Button>Редактровать</Button>
+            </StackPanel>
+        </Grid>
+    </Grid>
+</Window>

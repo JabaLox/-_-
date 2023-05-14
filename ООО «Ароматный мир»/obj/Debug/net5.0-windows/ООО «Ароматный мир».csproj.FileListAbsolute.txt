@@ -1,0 +1,47 @@
+C:\Users\yrok0\source\repos\ООО «Ароматный мир»\ООО «Ароматный мир»\bin\Debug\net5.0-windows\ООО «Ароматный мир».exe
+C:\Users\yrok0\source\repos\ООО «Ароматный мир»\ООО «Ароматный мир»\bin\Debug\net5.0-windows\ООО «Ароматный мир».deps.json
+C:\Users\yrok0\source\repos\ООО «Ароматный мир»\ООО «Ароматный мир»\bin\Debug\net5.0-windows\ООО «Ароматный мир».runtimeconfig.json
+C:\Users\yrok0\source\repos\ООО «Ароматный мир»\ООО «Ароматный мир»\bin\Debug\net5.0-windows\ООО «Ароматный мир».runtimeconfig.dev.json
+C:\Users\yrok0\source\repos\ООО «Ароматный мир»\ООО «Ароматный мир»\bin\Debug\net5.0-windows\ООО «Ароматный мир».dll
+C:\Users\yrok0\source\repos\ООО «Ароматный мир»\ООО «Ароматный мир»\bin\Debug\net5.0-windows\ref\ООО «Ароматный мир».dll
+C:\Users\yrok0\source\repos\ООО «Ароматный мир»\ООО «Ароматный мир»\bin\Debug\net5.0-windows\ООО «Ароматный мир».pdb
+C:\Users\yrok0\source\repos\ООО «Ароматный мир»\ООО «Ароматный мир»\obj\Debug\net5.0-windows\ООО «Ароматный мир».csproj.AssemblyReference.cache
+C:\Users\yrok0\source\repos\ООО «Ароматный мир»\ООО «Ароматный мир»\obj\Debug\net5.0-windows\Windows\AutorisationWindow.g.cs
+C:\Users\yrok0\source\repos\ООО «Ароматный мир»\ООО «Ароматный мир»\obj\Debug\net5.0-windows\Windows\ProductWindow.g.cs
+C:\Users\yrok0\source\repos\ООО «Ароматный мир»\ООО «Ароматный мир»\obj\Debug\net5.0-windows\App.g.cs
+C:\Users\yrok0\source\repos\ООО «Ароматный мир»\ООО «Ароматный мир»\obj\Debug\net5.0-windows\ООО «Ароматный мир»_MarkupCompile.cache
+C:\Users\yrok0\source\repos\ООО «Ароматный мир»\ООО «Ароматный мир»\obj\Debug\net5.0-windows\ООО «Ароматный мир»_MarkupCompile.lref
+C:\Users\yrok0\source\repos\ООО «Ароматный мир»\ООО «Ароматный мир»\obj\Debug\net5.0-windows\App.baml
+C:\Users\yrok0\source\repos\ООО «Ароматный мир»\ООО «Ароматный мир»\obj\Debug\net5.0-windows\Windows\AutorisationWindow.baml
+C:\Users\yrok0\source\repos\ООО «Ароматный мир»\ООО «Ароматный мир»\obj\Debug\net5.0-windows\Windows\ProductWindow.baml
+C:\Users\yrok0\source\repos\ООО «Ароматный мир»\ООО «Ароматный мир»\obj\Debug\net5.0-windows\ООО «Ароматный мир».g.resources
+C:\Users\yrok0\source\repos\ООО «Ароматный мир»\ООО «Ароматный мир»\obj\Debug\net5.0-windows\ООО «Ароматный мир».GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\yrok0\source\repos\ООО «Ароматный мир»\ООО «Ароматный мир»\obj\Debug\net5.0-windows\ООО «Ароматный мир».AssemblyInfoInputs.cache
+C:\Users\yrok0\source\repos\ООО «Ароматный мир»\ООО «Ароматный мир»\obj\Debug\net5.0-windows\ООО «Ароматный мир».AssemblyInfo.cs
+C:\Users\yrok0\source\repos\ООО «Ароматный мир»\ООО «Ароматный мир»\obj\Debug\net5.0-windows\ООО «Ароматный мир».csproj.CoreCompileInputs.cache
+C:\Users\yrok0\source\repos\ООО «Ароматный мир»\ООО «Ароматный мир»\obj\Debug\net5.0-windows\ООО «Ароматный мир».dll
+C:\Users\yrok0\source\repos\ООО «Ароматный мир»\ООО «Ароматный мир»\obj\Debug\net5.0-windows\ref\ООО «Ароматный мир».dll
+C:\Users\yrok0\source\repos\ООО «Ароматный мир»\ООО «Ароматный мир»\obj\Debug\net5.0-windows\ООО «Ароматный мир».pdb
+C:\Users\yrok0\source\repos\ООО «Ароматный мир»\ООО «Ароматный мир»\obj\Debug\net5.0-windows\ООО «Ароматный мир».genruntimeconfig.cache
+C:\Users\yrok0\source\repos\ООО «Ароматный мир»\ООО «Ароматный мир»\bin\Debug\net5.0-windows\Castle.Core.dll
+C:\Users\yrok0\source\repos\ООО «Ароматный мир»\ООО «Ароматный мир»\bin\Debug\net5.0-windows\Humanizer.dll
+C:\Users\yrok0\source\repos\ООО «Ароматный мир»\ООО «Ароматный мир»\bin\Debug\net5.0-windows\Microsoft.EntityFrameworkCore.dll
+C:\Users\yrok0\source\repos\ООО «Ароматный мир»\ООО «Ароматный мир»\bin\Debug\net5.0-windows\Microsoft.EntityFrameworkCore.Abstractions.dll
+C:\Users\yrok0\source\repos\ООО «Ароматный мир»\ООО «Ароматный мир»\bin\Debug\net5.0-windows\Microsoft.EntityFrameworkCore.Design.dll
+C:\Users\yrok0\source\repos\ООО «Ароматный мир»\ООО «Ароматный мир»\bin\Debug\net5.0-windows\Microsoft.EntityFrameworkCore.Proxies.dll
+C:\Users\yrok0\source\repos\ООО «Ароматный мир»\ООО «Ароматный мир»\bin\Debug\net5.0-windows\Microsoft.EntityFrameworkCore.Relational.dll
+C:\Users\yrok0\source\repos\ООО «Ароматный мир»\ООО «Ароматный мир»\bin\Debug\net5.0-windows\Microsoft.Extensions.Caching.Abstractions.dll
+C:\Users\yrok0\source\repos\ООО «Ароматный мир»\ООО «Ароматный мир»\bin\Debug\net5.0-windows\Microsoft.Extensions.Caching.Memory.dll
+C:\Users\yrok0\source\repos\ООО «Ароматный мир»\ООО «Ароматный мир»\bin\Debug\net5.0-windows\Microsoft.Extensions.Configuration.Abstractions.dll
+C:\Users\yrok0\source\repos\ООО «Ароматный мир»\ООО «Ароматный мир»\bin\Debug\net5.0-windows\Microsoft.Extensions.DependencyInjection.dll
+C:\Users\yrok0\source\repos\ООО «Ароматный мир»\ООО «Ароматный мир»\bin\Debug\net5.0-windows\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+C:\Users\yrok0\source\repos\ООО «Ароматный мир»\ООО «Ароматный мир»\bin\Debug\net5.0-windows\Microsoft.Extensions.Logging.dll
+C:\Users\yrok0\source\repos\ООО «Ароматный мир»\ООО «Ароматный мир»\bin\Debug\net5.0-windows\Microsoft.Extensions.Logging.Abstractions.dll
+C:\Users\yrok0\source\repos\ООО «Ароматный мир»\ООО «Ароматный мир»\bin\Debug\net5.0-windows\Microsoft.Extensions.Options.dll
+C:\Users\yrok0\source\repos\ООО «Ароматный мир»\ООО «Ароматный мир»\bin\Debug\net5.0-windows\Microsoft.Extensions.Primitives.dll
+C:\Users\yrok0\source\repos\ООО «Ароматный мир»\ООО «Ароматный мир»\bin\Debug\net5.0-windows\MySqlConnector.dll
+C:\Users\yrok0\source\repos\ООО «Ароматный мир»\ООО «Ароматный мир»\bin\Debug\net5.0-windows\Pomelo.EntityFrameworkCore.MySql.dll
+C:\Users\yrok0\source\repos\ООО «Ароматный мир»\ООО «Ароматный мир»\bin\Debug\net5.0-windows\System.Diagnostics.DiagnosticSource.dll
+C:\Users\yrok0\source\repos\ООО «Ароматный мир»\ООО «Ароматный мир»\obj\Debug\net5.0-windows\ООО «Ароматный мир».csproj.CopyComplete
+C:\Users\yrok0\source\repos\ООО «Ароматный мир»\ООО «Ароматный мир»\obj\Debug\net5.0-windows\Windows\EditAndAddWindow.g.cs
+C:\Users\yrok0\source\repos\ООО «Ароматный мир»\ООО «Ароматный мир»\obj\Debug\net5.0-windows\Windows\EditAndAddWindow.baml

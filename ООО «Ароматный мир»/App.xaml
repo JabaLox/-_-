@@ -1,0 +1,32 @@
+﻿<Application x:Class="ООО__Ароматный_мир_.App"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:local="clr-namespace:ООО__Ароматный_мир_"
+             StartupUri="Windows/AutorisationWindow.xaml">
+    <Application.Resources>
+        <BitmapImage x:Key="Plug" UriSource="/Resorces/NullInage/picture.png" ></BitmapImage>
+        <Style TargetType="Window">
+            <Setter Property="FontFamily" Value="Comic Sans MS"></Setter>
+           
+        </Style>
+
+        <Style TargetType="PasswordBox">
+            <Setter Property="Background" Value="#FFFFCC99"/>
+            <Setter Property="FontFamily" Value="Comic Sans MS"></Setter>
+        </Style>
+
+        <Style TargetType="TextBlock">
+            <Setter Property="FontFamily" Value="Comic Sans MS"></Setter>
+        </Style>
+        
+        <Style TargetType="TextBox">
+            <Setter Property="Background" Value="#FFFFCC99"/>
+            <Setter Property="FontFamily" Value="Comic Sans MS"></Setter>
+        </Style>
+
+        <Style TargetType="Button">
+            <Setter Property="Background" Value="#FFCC6600"/>
+            <Setter Property="FontFamily" Value="Comic Sans MS"></Setter>
+        </Style>
+    </Application.Resources>
+</Application>

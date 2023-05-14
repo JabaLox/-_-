@@ -1,0 +1,51 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net5.0-windows</TargetFramework>
+    <RootNamespace>ООО__Ароматный_мир_</RootNamespace>
+    <UseWPF>true</UseWPF>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="Resorces\ImageProduct\D344Y7.jpg" />
+    <None Remove="Resorces\ImageProduct\D378D3.jpg" />
+    <None Remove="Resorces\ImageProduct\E245R5.jpg" />
+    <None Remove="Resorces\ImageProduct\E530Y6.jpg" />
+    <None Remove="Resorces\ImageProduct\F346G5.jpg" />
+    <None Remove="Resorces\ImageProduct\F893T5.jpg" />
+    <None Remove="Resorces\ImageProduct\G832G6.jpg" />
+    <None Remove="Resorces\ImageProduct\J432E4.jpg" />
+    <None Remove="Resorces\ImageProduct\V324R5.jpg" />
+    <None Remove="Resorces\ImageProduct\А112Т4.jpg" />
+    <None Remove="Resorces\LogoImage\icon.ico" />
+    <None Remove="Resorces\LogoImage\logo.png" />
+    <None Remove="Resorces\NullInage\picture.png" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.EntityFrameworkCore.Proxies" Version="5.0.0" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.Tools" Version="5.0.0">
+      <PrivateAssets>all</PrivateAssets>
+      <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+    </PackageReference>
+    <PackageReference Include="Pomelo.EntityFrameworkCore.MySql" Version="5.0.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Resource Include="Resorces\ImageProduct\D344Y7.jpg" />
+    <Resource Include="Resorces\ImageProduct\D378D3.jpg" />
+    <Resource Include="Resorces\ImageProduct\E245R5.jpg" />
+    <Resource Include="Resorces\ImageProduct\E530Y6.jpg" />
+    <Resource Include="Resorces\ImageProduct\F346G5.jpg" />
+    <Resource Include="Resorces\ImageProduct\F893T5.jpg" />
+    <Resource Include="Resorces\ImageProduct\G832G6.jpg" />
+    <Resource Include="Resorces\ImageProduct\J432E4.jpg" />
+    <Resource Include="Resorces\ImageProduct\V324R5.jpg" />
+    <Resource Include="Resorces\ImageProduct\А112Т4.jpg" />
+    <Resource Include="Resorces\LogoImage\icon.ico" />
+    <Resource Include="Resorces\LogoImage\logo.png" />
+    <Resource Include="Resorces\NullInage\picture.png" />
+  </ItemGroup>
+
+</Project>

@@ -1,0 +1,105 @@
+﻿<Window x:Class="ООО__Ароматный_мир_.Windows.ProductWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:ООО__Ароматный_мир_.Windows"
+        mc:Ignorable="d"
+        Title="Список товаров" Height="450" Width="800" Loaded="Window_Loaded" Activated="Window_Activated">
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="79*"></RowDefinition>
+            <RowDefinition Height="50*"></RowDefinition>
+            <RowDefinition Height="25*"></RowDefinition>
+            <RowDefinition Height="235*"></RowDefinition>
+            <RowDefinition Height="45*"></RowDefinition>
+
+        </Grid.RowDefinitions>
+        <Grid Grid.Row="0">
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="37*"></ColumnDefinition>
+                <ColumnDefinition Width="123*"></ColumnDefinition>
+            </Grid.ColumnDefinitions>
+            <Image Grid.Column="0" Source="/Resorces/LogoImage/logo.png" ></Image>
+            <TextBlock Grid.Column="1" VerticalAlignment="Center" HorizontalAlignment="Center" FontSize="25">ООО «Ароматный мир»</TextBlock>
+        </Grid>
+        <Grid Grid.Row="1">
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition></ColumnDefinition>
+                <ColumnDefinition></ColumnDefinition>
+                <ColumnDefinition></ColumnDefinition>
+            </Grid.ColumnDefinitions>
+            <Grid.RowDefinitions>
+                <RowDefinition Height="2*"></RowDefinition>
+                <RowDefinition Height="3*"></RowDefinition>
+            </Grid.RowDefinitions>
+            <TextBlock Grid.Row="0" Grid.Column="0">Поиск</TextBlock>
+            <TextBlock Grid.Row="0" Grid.Column="1">Фильтрация</TextBlock>
+            <TextBlock Grid.Row="0" Grid.Column="2">Сортировка</TextBlock>
+            <TextBox x:Name="SearchText" Grid.Row="1" Grid.Column="0" TextChanged="SearchText_TextChanged"> </TextBox>
+            <ComboBox x:Name="FiltrCombo" Grid.Row="1" Grid.Column="1" SelectionChanged="FiltrCombo_SelectionChanged">
+                <ComboBoxItem>Все диапозоны</ComboBoxItem>
+                <ComboBoxItem>0%-2%</ComboBoxItem>
+                <ComboBoxItem>2%-4%</ComboBoxItem>
+                <ComboBoxItem>4% и более</ComboBoxItem>
+            </ComboBox>
+            <ComboBox x:Name="SortCombo" Grid.Row="1" Grid.Column="2" SelectionChanged="SortCombo_SelectionChanged">
+                <ComboBoxItem>По возрастанию</ComboBoxItem>
+                <ComboBoxItem>По убыванию</ComboBoxItem>
+            </ComboBox>
+        </Grid>
+        <Grid Grid.Row="2">
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition/>
+                <ColumnDefinition/>
+            </Grid.ColumnDefinitions>
+            <TextBlock x:Name="CountListText" Grid.Column="0"></TextBlock>
+            <TextBlock x:Name="ClietnText" Grid.Column="1"></TextBlock>
+        </Grid>
+        <ListView x:Name="listProduct" Grid.Row="3" d:ItemsSource="{d:SampleData}">
+            <ListView.ContextMenu>
+                <ContextMenu x:Name="contextMenu" Visibility="Hidden">
+                    <MenuItem Header="Удалить" Click="DeleteClick"></MenuItem>
+                    <MenuItem Header="Редактировать" Click="EditClick"></MenuItem>
+                </ContextMenu>
+            </ListView.ContextMenu>
+            <ListView.ItemContainerStyle>
+                <Style TargetType="ListViewItem">
+                    <Setter Property="HorizontalContentAlignment" Value="Stretch"> </Setter>
+                    <Setter Property="VerticalContentAlignment" Value="Stretch"></Setter>
+                </Style>
+            </ListView.ItemContainerStyle>
+            <ListView.ItemTemplate>
+                <DataTemplate>
+                    <Grid Background="{Binding color}" HorizontalAlignment="Stretch" VerticalAlignment="Stretch">
+                        <Grid.ColumnDefinitions>
+                            <ColumnDefinition></ColumnDefinition>
+                            <ColumnDefinition></ColumnDefinition>
+                            <ColumnDefinition></ColumnDefinition>
+                        </Grid.ColumnDefinitions>
+                        <Image Grid.Column="0" Source="{Binding image, TargetNullValue={StaticResource Plug}}" MaxHeight="150" MaxWidth="150"></Image>
+                        <StackPanel Grid.Column="1">
+                            <TextBlock Text="{Binding StringFormat=Наименование {0}, Path=ProductName}"></TextBlock>
+                            <TextBlock TextWrapping="Wrap" MaxWidth="250" Text="{Binding StringFormat=Описание {0}, Path=ProductDescription}"></TextBlock>
+                            <TextBlock Text="{Binding StringFormat=Проивзодитель {0}, Path=ProductManufacturerNavigation.NameManufacture}"></TextBlock>
+                            <StackPanel Orientation="Horizontal">
+                                <TextBlock Text="{Binding StringFormat=Цена {0}, Path=ProductCost}" TextDecorations="{Binding decor}"></TextBlock>
+                                <TextBlock Text="{Binding StringFormat=Цена {0}, Path=NewCost}" Margin="10,0"></TextBlock>
+                            </StackPanel>
+                        </StackPanel>
+                        <TextBlock Grid.Column="2" Text="{Binding Discount}"></TextBlock>
+                    </Grid>
+                </DataTemplate>
+            </ListView.ItemTemplate>
+        </ListView>
+        <Grid Grid.Row="4">
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition></ColumnDefinition>
+                <ColumnDefinition></ColumnDefinition>
+                <ColumnDefinition></ColumnDefinition>
+            </Grid.ColumnDefinitions>
+            <Button Grid.Column="0" Click="Button_Click">Выйти</Button>
+            <Button x:Name="AddBtn" Grid.Column="2" Visibility="Hidden" Click="AddBtn_Click">Добавить</Button>
+        </Grid>
+    </Grid>
+</Window>
