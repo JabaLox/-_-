@@ -38,6 +38,11 @@ namespace ООО__Ароматный_мир_.Windows
                 && !string.IsNullOrEmpty(CostText.Text) && !string.IsNullOrEmpty(DiscountText.Text) &&
                 CategoryCombo.SelectedItem!=null && !string.IsNullOrEmpty(CountInStockText.Text) && ManufactureCombo.SelectedItem!=null && Supplier.SelectedItem!=null)
             {
+              string photo = "";
+                if(!string.IsNullOrEmpty(PhotoPath.Text))
+                {
+                    photo = PhotoPath.Text;
+                }
                 Product product = new Product
                 {
                     ProductArticleNumber = ArticleText.Text,
@@ -49,6 +54,9 @@ namespace ООО__Ароматный_мир_.Windows
                     ProductManufacturer = ManufactureCombo.SelectedIndex+1,
                     Supplier = Supplier.SelectedIndex + 1,
                     ProductCategory = CategoryCombo.SelectedIndex + 1,
+                    ProductQuantityInStock = Convert.ToInt32(CountInStockText.Text),
+                    Unit = "шт.",
+                    ProductPhoto = photo
                 };
 
                 user_7_20P3Context.Context.Products.Add(product);
